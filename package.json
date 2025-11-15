@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "mock-api": "json-server --watch db.json --port ${PORT:-4000} --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.3"
+  }
+}
